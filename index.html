@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" 
+      content="
+        default-src 'self'; 
+        script-src 'self' https://cdn.tailwindcss.com; 
+        style-src 'self' 'unsafe-inline'; 
+        img-src 'self' https://media.istockphoto.com data:;
+        font-src 'self';
+        object-src 'none';
+        base-uri 'self';
+        form-action 'self';
+      ">
+    <title>Latihan Pemrograman Web</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="relative flex flex-col items-center mx-auto lg:flex-row-reverse lg:max-w-5xl lg:mt-12 xl:max-w-6xl">
+
+        <div class="w-full h-64 lg:w-1/2 lg:h-auto">
+            <img class="h-full w-full object-cover" src="https://media.istockphoto.com/id/2149381509/id/foto/sunrise-fairyland-desa-sembalun.jpg?s=612x612&w=0&k=20&c=k9lG8yxANKSXc9X5efCBz0hq3A2-_cABJJ0CjFAiGKQ=" alt="Gunung Rinjani">
+        </div>
+
+        <div
+            class="max-w-lg bg-white md:max-w-2xl md:z-10 md:shadow-lg md:absolute md:top-0 md:mt-48 lg:w-3/5 lg:left-0 lg:mt-20 lg:ml-20 xl:mt-24 xl:ml-12">
+            <div class="flex flex-col p-12 md:px-16">
+                <h2 class="text-2xl font-medium uppercase text-green-800 lg:text-4xl">Gunung Rinjani</h2>
+                <p class="mt-4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+                    ex ea commodo consequat.
+                </p>
+                
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
